@@ -1,0 +1,81 @@
+
+@import url('font-awesome.css');
+@charset "utf-8";
+
+@font-face {
+font-family: 'OdinRounded';
+src: url('fonts/odin_rounded_-_bold-webfont.eot');
+src: url('fonts/odin_rounded_-_bold-webfont.eot?#iefix') format('embedded-opentype'),
+url('../fonts/odin_rounded_-_bold-webfont.woff2') format('woff2'),
+url('../fonts/odin_rounded_-_bold-webfont.woff') format('woff'),
+url('../fonts/odin_rounded_-_bold-webfont.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+body{
+    background-color: #33E5E1;
+}
+span,a{
+    font-family: 'OdinRounded';
+    font-size: 16px;
+}
+.box2{
+    width: 300px;
+    height: 107px;
+
+}
+
+
+button{
+     width: 147px;
+    height: 40px;
+    background: #FFA300;
+    border-radius: 27px;
+    float: left;
+    margin-top: 18px;
+    margin-left: 39px;
+    font-family: 'OdinRounded';
+    font-size: 16px;
+    color: #fff;
+    padding-top: 7px;
+
+}
+input {
+    width: 220px;
+    height: 48px;
+    background: #fff;
+    border-radius: 7px;
+    font-family: 'OdinRounded';
+    font-size: 16px;
+    color: red;
+}
+select{
+    width: 220px;
+    height: 48px;
+    background: #fff;
+    border-radius: 7px;
+    font-family: 'OdinRounded';
+    font-size: 16px;
+    margin-top: 16px;
+    color: #ccc;
+}
+.box-bg{
+    height: 770px;
+    width: 1280px;
+    background-image: url(../images/bg.jpg);
+}
+.wrap1280{
+    max-width: 1280px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -9px;
+        
+}
+.container{
+    float: left;
+    margin-top: 225px;
+    margin-left: 520px;
+}
+
